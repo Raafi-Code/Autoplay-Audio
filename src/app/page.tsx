@@ -15,7 +15,7 @@ export default function Home() {
   const wakeLockRef = useRef<any>(null);
 
   // Default play time (bisa diatur sesuai kebutuhan)
-  const defaultPlayTime = "14:00";
+  const defaultPlayTime = "14:10";
 
   // Keep screen awake - Request Wake Lock
   useEffect(() => {
