@@ -3,7 +3,7 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -50,7 +50,7 @@ export default function Navbar() {
             className="p-2.5 sm:p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all hover:scale-105 active:scale-95"
             title="Support via WhatsApp"
           >
-            <MessageCircle className="w-5 h-5" />
+            <FaWhatsapp className="w-5 h-5" />
           </Link>
 
           {/* Theme Toggle */}
